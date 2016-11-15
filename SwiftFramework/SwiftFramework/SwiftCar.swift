@@ -8,12 +8,12 @@
 
 import UIKit
 
-public class SwiftCar: NSObject {
-    public func run() {
+open class SwiftCar: NSObject {
+    open func run() {
         print("Run forward for 10 miles")
     }
     
-    public func stop() {
+    open func stop() {
         print("Car stopped")
     }
 }
